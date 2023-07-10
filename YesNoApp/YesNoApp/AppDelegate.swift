@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  YesNoApp
+//  RandomAnswer
 //
-//  Created by Андрей Неверовский on 10.07.23.
+//  Created by Андрей Неверовский on 6.07.23.
 //
 
 import UIKit
