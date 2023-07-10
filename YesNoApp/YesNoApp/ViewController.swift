@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
      
+        answerButton.setTitleColor(.darkGray, for: .highlighted)
     }
     
     @IBAction func answerButtonAction(_ sender: Any) {
@@ -23,6 +24,7 @@ class ViewController: UIViewController {
         
         DispatchQueue.main.asyncAfter(deadline: .now()) {
             self.answerLabel.text = answer ? "YES" : "NO"
+            self.answerLabel.textColor = answer ? .green : .red
         }
     }
     
